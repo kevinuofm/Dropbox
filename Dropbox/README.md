@@ -27,7 +27,7 @@ Completed this homework on 1/27, before the course started, by doing independent
 
 Walkthrough of all user stories:
 
-![Video Walkthrough](dropbox V1 kzhu.gif)
+![Video Walkthrough](Dropbox V1 KZHU.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
