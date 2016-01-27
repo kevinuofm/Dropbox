@@ -28,7 +28,6 @@ Did a lot of googling, reading, and got stuck and unstuck many times on the foll
 - I could get the keyboard to hide on one screen but not another one for some reason. 
 - Could not get the vertical scrolling to work but figured it out. 
 - The "Logout" button was awkwardly placed on the "Settings" screen by trial and error, I can't actually see where the button is when I was placing it since it's very far down below the view controller, so I had to use a few tries to get it right. I'm not sure if this is the right way to place that button. 
-
 - I completed this homework on 1/27, before the course started, yay!  
 - 
 
