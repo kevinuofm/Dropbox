@@ -19,6 +19,10 @@
 		59E598201C5768E400FFA381 /* photosScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E5981F1C5768E400FFA381 /* photosScrollViewController.swift */; };
 		59E598221C576BB600FFA381 /* createAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E598211C576BB600FFA381 /* createAccountRootViewController.swift */; };
 		59E598241C576C6E00FFA381 /* signInNewRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E598231C576C6E00FFA381 /* signInNewRootViewController.swift */; };
+		59E598261C588E5300FFA381 /* favoriteTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E598251C588E5300FFA381 /* favoriteTabViewController.swift */; };
+		59E598281C58913900FFA381 /* filesTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E598271C58913900FFA381 /* filesTabViewController.swift */; };
+		59E5982A1C58A3EE00FFA381 /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E598291C58A3EE00FFA381 /* signInViewController.swift */; };
+		59E5982C1C58AA4D00FFA381 /* welcomeScrollViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E5982B1C58AA4D00FFA381 /* welcomeScrollViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,10 @@
 		59E5981F1C5768E400FFA381 /* photosScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = photosScrollViewController.swift; sourceTree = "<group>"; };
 		59E598211C576BB600FFA381 /* createAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createAccountRootViewController.swift; sourceTree = "<group>"; };
 		59E598231C576C6E00FFA381 /* signInNewRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signInNewRootViewController.swift; sourceTree = "<group>"; };
+		59E598251C588E5300FFA381 /* favoriteTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = favoriteTabViewController.swift; path = ../favoriteTabViewController.swift; sourceTree = "<group>"; };
+		59E598271C58913900FFA381 /* filesTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = filesTabViewController.swift; sourceTree = "<group>"; };
+		59E598291C58A3EE00FFA381 /* signInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
+		59E5982B1C58AA4D00FFA381 /* welcomeScrollViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = welcomeScrollViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,11 +147,15 @@
 		59E5981A1C57588700FFA381 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				59E598251C588E5300FFA381 /* favoriteTabViewController.swift */,
 				59E598211C576BB600FFA381 /* createAccountRootViewController.swift */,
 				59E598231C576C6E00FFA381 /* signInNewRootViewController.swift */,
 				59E5981F1C5768E400FFA381 /* photosScrollViewController.swift */,
 				59E5981B1C57596500FFA381 /* settingsViewController.swift */,
+				59E5982B1C58AA4D00FFA381 /* welcomeScrollViewViewController.swift */,
 				59E5981D1C575ABF00FFA381 /* createAccountViewController.swift */,
+				59E598291C58A3EE00FFA381 /* signInViewController.swift */,
+				59E598271C58913900FFA381 /* filesTabViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -279,12 +291,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59E5982C1C58AA4D00FFA381 /* welcomeScrollViewViewController.swift in Sources */,
+				59E598261C588E5300FFA381 /* favoriteTabViewController.swift in Sources */,
 				59E5981E1C575ABF00FFA381 /* createAccountViewController.swift in Sources */,
 				59E598241C576C6E00FFA381 /* signInNewRootViewController.swift in Sources */,
 				59E597ED1C5616C300FFA381 /* ViewController.swift in Sources */,
+				59E5982A1C58A3EE00FFA381 /* signInViewController.swift in Sources */,
 				59E598221C576BB600FFA381 /* createAccountRootViewController.swift in Sources */,
 				59E597EB1C5616C300FFA381 /* AppDelegate.swift in Sources */,
 				59E598201C5768E400FFA381 /* photosScrollViewController.swift in Sources */,
+				59E598281C58913900FFA381 /* filesTabViewController.swift in Sources */,
 				59E5981C1C57596500FFA381 /* settingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

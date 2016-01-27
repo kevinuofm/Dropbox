@@ -1,22 +1,24 @@
 //
-//  createAccountViewController.swift
+//  welcomeScrollViewViewController.swift
 //  Dropbox
 //
-//  Created by Kevin Zhu on 1/25/16.
+//  Created by Kevin Zhu on 1/26/16.
 //  Copyright © 2016 Kevin Zhu. All rights reserved.
 //
 
 import UIKit
 
-class createAccountViewController: UIViewController {
+class welcomeScrollViewViewController: UIViewController {
 
+    @IBOutlet weak var welcomeScroll: UIScrollView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
-
-        // Do any additional setup after loading the view.
+        welcomeScroll.contentSize = CGSize(width: 960, height: 560)   //enables scrolling.
+        
+  
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,11 +27,6 @@ class createAccountViewController: UIViewController {
     }
     
 
- 
-    @IBAction func outsideTap(sender: UITapGestureRecognizer) {
-        view.endEditing(true)
-    }
-    
     /*
     // MARK: - Navigation
 

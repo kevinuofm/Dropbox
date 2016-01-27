@@ -1,22 +1,24 @@
 //
-//  createAccountViewController.swift
+//  favoriteTabViewController.swift
 //  Dropbox
 //
-//  Created by Kevin Zhu on 1/25/16.
+//  Created by Kevin Zhu on 1/26/16.
 //  Copyright © 2016 Kevin Zhu. All rights reserved.
 //
 
 import UIKit
 
-class createAccountViewController: UIViewController {
+class favoriteTabViewController: UIViewController {
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
-
         // Do any additional setup after loading the view.
+        
+        //    favoriteScroll.contentSize = CGSize(width: 320, height: 772)   //enable scrolling.
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,11 +27,6 @@ class createAccountViewController: UIViewController {
     }
     
 
- 
-    @IBAction func outsideTap(sender: UITapGestureRecognizer) {
-        view.endEditing(true)
-    }
-    
     /*
     // MARK: - Navigation
 

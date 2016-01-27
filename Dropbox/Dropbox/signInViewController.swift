@@ -1,20 +1,17 @@
 //
-//  createAccountViewController.swift
+//  signInViewController.swift
 //  Dropbox
 //
-//  Created by Kevin Zhu on 1/25/16.
+//  Created by Kevin Zhu on 1/26/16.
 //  Copyright © 2016 Kevin Zhu. All rights reserved.
 //
 
 import UIKit
 
-class createAccountViewController: UIViewController {
+class signInViewController: UIViewController {
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
 
         // Do any additional setup after loading the view.
     }
@@ -24,12 +21,10 @@ class createAccountViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
- 
-    @IBAction func outsideTap(sender: UITapGestureRecognizer) {
-        view.endEditing(true)
+    @IBAction func tapOutside(sender: UITapGestureRecognizer) {
+        view.endEditing(true)  // swipes away keyboard.
     }
-    
+
     /*
     // MARK: - Navigation
 

@@ -1,20 +1,25 @@
 //
-//  createAccountViewController.swift
+//  filesTabViewController.swift
 //  Dropbox
 //
-//  Created by Kevin Zhu on 1/25/16.
+//  Created by Kevin Zhu on 1/26/16.
 //  Copyright © 2016 Kevin Zhu. All rights reserved.
 //
 
 import UIKit
 
-class createAccountViewController: UIViewController {
+class filesTabViewController: UIViewController {
 
+    @IBAction func favoriteButton(sender: UIButton) {  // favorite button.
+        // do stuff in here when button is tapped
+        
+        sender.selected = true  // sets the button to selected. dont know how to make it go back.
+        
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
 
         // Do any additional setup after loading the view.
     }
@@ -25,11 +30,6 @@ class createAccountViewController: UIViewController {
     }
     
 
- 
-    @IBAction func outsideTap(sender: UITapGestureRecognizer) {
-        view.endEditing(true)
-    }
-    
     /*
     // MARK: - Navigation
 
