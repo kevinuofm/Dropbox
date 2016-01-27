@@ -206,13 +206,6 @@
                                     <outletCollection property="gestureRecognizers" destination="pxU-eJ-VAk" appends="YES" id="oF6-yi-YE9"/>
                                 </connections>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kZk-cP-ePJ">
-                                <rect key="frame" x="68" y="196" width="181" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="TFM-Gw-jdR" kind="modal" id="giU-pJ-xhK"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" id="09q-HE-0Fo">
                                 <rect key="frame" x="117" y="105" width="198" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -227,6 +220,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kZk-cP-ePJ">
+                                <rect key="frame" x="68" y="196" width="181" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="TFM-Gw-jdR" kind="modal" id="giU-pJ-xhK"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="EfZ-fi-gcm">
                                 <rect key="frame" x="226" y="9" width="89" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -713,7 +713,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9wx-8Z-gRl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2175" y="1536"/>
+            <point key="canvasLocation" x="1969" y="1662"/>
         </scene>
         <!--Photos-->
         <scene sceneID="evL-6x-q2S">
@@ -992,6 +992,6 @@
         <segue reference="ZAf-0o-tCp"/>
         <segue reference="nK1-3h-A6b"/>
         <segue reference="dOQ-eF-2XE"/>
-        <segue reference="7mf-4r-sxf"/>
+        <segue reference="6Fa-uX-0Da"/>
     </inferredMetricsTieBreakers>
 </document>
