@@ -23,7 +23,7 @@ Completed user stories:
 Notes:
 
 Did a lot of googling, reading, and got stuck a few times. 
-Completed this homework on 1/27, before the course started, by doing independent research.  
+Completed this homework on 1/27, before the course started, by doing independent research myself.  
 
 Walkthrough of all user stories:
 
